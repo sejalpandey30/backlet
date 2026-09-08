@@ -153,7 +153,7 @@ backlet/
 ### 2. Install & Run
 ```bash
 # Clone or navigate to the repository
-cd C:\Users\vlsi\.gemini\antigravity\scratch\backlet
+cd C:\Users\downloads\backlet
 
 # Install dependencies
 npm install
