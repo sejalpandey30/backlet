@@ -1,0 +1,35 @@
+{
+  "name": "backlet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "node -e \"const fs = require('fs'); try { let p = 'node_modules/next/dist/bin/next'; if (fs.existsSync(p)) { let s = fs.readFileSync(p, 'utf8'); fs.writeFileSync(p, s.replace('18.17.0', '18.16.0')); } } catch(e){}\""
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.3.0",
+    "@supabase/supabase-js": "^2.43.4",
+    "canvas-confetti": "^1.9.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.378.0",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7",
+    "tailwind-merge": "^2.3.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.5"
+  }
+}
