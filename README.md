@@ -1,5 +1,16 @@
 # 🚀 Backlet — Enterprise Developer & Professional Workspace
 
+## 📺 Project Demonstration
+
+Click the image below to watch the full walkthrough of Backlet!
+
+<p align="center">
+  <a href="https://youtu.be/WviW8aUq5VY?si=wzkTezZ1xQ8MkqGG">
+    <img src="https://youtube.com" alt="Watch the Backlet Demo" width="600">
+  </a>
+</p>
+
+
 > **"Your team's workspace, meetings, knowledge, and execution in one place."**
 
 Backlet is a modern, full-stack collaborative productivity platform designed around the real-world engineering and product lifecycle:
